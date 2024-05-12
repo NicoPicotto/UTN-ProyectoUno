@@ -12,6 +12,7 @@ Es un sitio donde se detallarían los resúmenes de aventuras de un grupo de Dun
 - Paleta generada con [Color Hunt](https://colorhunt.co/)
 - Iconos de la librería [Box Icons](https://boxicons.com/)
 - Imagenes generadas con [DALL·E 3](https://openart.ai/home)
+- Separadores generados con [CSS Section Separator Generator](https://wweb.dev/resources/css-separator-generator)
 
 ## Autor
 
