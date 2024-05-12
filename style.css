@@ -22,6 +22,7 @@ h2,
 h3,
 h4 {
   font-family: "Sedan SC", serif;
+  color: var(--primary-color);
 }
 
 h1 {
@@ -32,6 +33,7 @@ h1 {
 
 p {
   font-size: 1.1rem;
+  color: var(--primary-color);
 }
 
 button {
@@ -45,6 +47,10 @@ button {
   border-radius: 4px;
   border: 2px solid var(--secondary-color);
   font-family: var(--font-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
 }
 
 .btn-secondary {
@@ -63,13 +69,12 @@ button:hover {
 }
 
 section {
-  max-width: 1200px;
   display: flex;
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  padding-inline: 1em;
-  padding-block: 5em;
+  padding-block: 7em;
+  justify-content: center;
 }
 
 /*Header*/
@@ -77,6 +82,9 @@ header {
   background-color: var(--secondary-color);
   color: var(--bg-primary);
   height: 4em;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 nav {
   display: flex;
@@ -131,6 +139,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 60%;
+  max-width: 1200px;
 }
 
 .hero-img img {
@@ -141,6 +150,58 @@ nav {
 
 .btn-wrapper {
   margin-top: 2em;
+  display: flex;
+  gap: 1em;
+}
+
+/*Ultimas sesiones*/
+.section-secondary {
+  background-color: var(--bg-secondary);
+}
+
+.session-wrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.session-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  padding: 1em;
+  border-radius: 8px;
+  transition: 0.2s;
+  position: relative;
+  height: 100%;
+}
+
+.session-card:hover {
+  transform: translateY(-5px);
+}
+
+.session-img img {
+  width: 100%;
+  max-height: 250px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.session-img {
+  width: 100%;
+}
+
+.session-text {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.session-btn-wrapper {
+  position: relative;
+  margin-top: auto;
 }
 
 /*Responsive*/
