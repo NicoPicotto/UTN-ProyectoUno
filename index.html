@@ -12,42 +12,64 @@
       href="https://fonts.googleapis.com/css2?family=Sedan+SC&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-	<meta name="description" content="El mejor sitio de recursos y materiales para jugar y aprender sobre Calabozos y Dragones, en su 5ta edición.">
-	<meta name="keywords" content="calabozos, dragones, juego de mesa, dungeons, dragons, recursos, libros, D&D, roll">
-	<!-- Icono del sitio-->
-	<link rel="shortcut icon" href="assets/imgs/icon.ico" type="image/x-icon">
+    <meta
+      name="description"
+      content="El mejor sitio de recursos y materiales para jugar y aprender sobre Calabozos y Dragones, en su 5ta edición."
+    />
+    <meta
+      name="keywords"
+      content="calabozos, dragones, juego de mesa, dungeons, dragons, recursos, libros, D&D, roll"
+    />
+    <!-- Icono del sitio-->
+    <link rel="shortcut icon" href="assets/imgs/icon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Rise of Tiamat - Aventura D&D</title>
   </head>
   <body>
     <header>
       <nav>
-        <div class="nav__logo">
+        <div class="nav-logo">
           <a href="index.html"
             ><img src="assets/imgs/logomini.png" alt="Logo Posada"
           /></a>
         </div>
-        <label for="menu" class="nav__label">
-          <img src="assets/imgs/menu.svg" alt="Hamburguesa" class="nav__img" />
+        <label for="menu" class="nav-label">
+          <i class="bx bx-menu nav-img" alt="Hamburguesa"></i>
         </label>
-        <input
-          type="checkbox"
-          name="Hamburguesa"
-          id="menu"
-          class="nav__input"
-        />
+        <input type="checkbox" name="Hamburguesa" id="menu" class="nav-input" />
 
-        <div class="nav__menu">
-          <a href="#" class="nav__item">Menu Uno</a>
-          <a href="#" class="nav__item">Menu Dos</a>
-          <a href="#" class="nav__item">Menu Tres</a>
+        <div class="nav-menu">
+          <a href="#" class="nav-item">Últimas sesiones</a>
+          <a href="#" class="nav-item">Nuestros héroes</a>
+          <a href="#" class="nav-item">Contactate</a>
         </div>
       </nav>
     </header>
     <section>
-      <h1 class="titulo">Esto es un titulo!</h1>
-      <p class="texto">Este es un texto normal</p>
+      <div class="hero-wrapper">
+        <div class="hero-text">
+          <h1>The Rise of Tiamat</h1>
+          <p>
+            Sumérgete en la legendaria saga donde valientes héroes se enfrentan
+            al resurgimiento de Tiamat, la diosa dragón de cinco cabezas.
+            Explora las crónicas de sus enfrentamientos épicos, descubre los
+            secretos de sus estrategias y celebra sus victorias y pérdidas.
+            Acompáñanos en cada paso de esta increíble aventura.
+          </p>
+          <div class="btn-wrapper">
+            <button class="btn-primary">Conocé a los personajes</button>
+            <button class="btn-secondary">Últimas sesiones</button>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="assets/imgs/hero-img.webp" alt="Hero Image" />
+        </div>
+      </div>
     </section>
   </body>
 </html>
