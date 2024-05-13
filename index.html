@@ -44,9 +44,9 @@
         <input type="checkbox" name="Hamburguesa" id="menu" class="nav-input" />
 
         <div class="nav-menu">
-          <a href="#" class="nav-item">Sesiones</a>
-          <a href="#" class="nav-item">Personajes</a>
-          <a href="#" class="nav-item">Contactate</a>
+          <a class="nav-item" href="#sessions">Sesiones</a>
+          <a class="nav-item" href="#characters">Personajes</a>
+          <a class="nav-item" href="#contact">Contactate</a>
         </div>
       </nav>
     </header>
@@ -62,10 +62,10 @@
             Acompáñanos en cada paso de esta increíble aventura.
           </p>
           <div class="btn-wrapper">
-            <button class="btn-primary">
+            <button class="btn-primary" onclick="location.href='#characters'">
               <i class="bx bxs-user"></i> Conocé a los personajes
             </button>
-            <button class="btn-secondary">
+            <button class="btn-secondary" onclick="location.href='#sessions'">
               <i class="bx bxs-book-bookmark"></i> Últimas sesiones
             </button>
           </div>
@@ -75,7 +75,7 @@
         </div>
       </div>
     </section>
-    <section class="section-secondary">
+    <section class="section-secondary" id="sessions">
       <div class="session-wrapper">
         <div class="session-card">
           <div class="session-img">
@@ -134,7 +134,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="characters">
       <div class="character-wrapper">
         <a href="#" class="character-card">
           <div class="character-img">
@@ -227,8 +227,12 @@
         </a>
       </div>
     </section>
-    <section class="section-secondary">
-      <form class="form-wrapper">
+    <section class="section-secondary" id="contact">
+      <form
+        class="form-wrapper"
+        action="https://formsubmit.co/picottonico@gmail.com"
+        method="POST"
+      >
         <h2 class="form-title">¿Querés sumarte a la partida? ¡Escribinos!</h2>
         <div class="input-wrapper">
           <div class="form-group">
@@ -262,7 +266,7 @@
         <button type="submit">Enviar</button>
       </form>
     </section>
-    <footer class="footer-section">
+    <footer class="footer-section" id="footer">
       <div class="skewed"></div>
       <div class="footer-wrapper">
         <h4>The Rise of Tiamat</h4>

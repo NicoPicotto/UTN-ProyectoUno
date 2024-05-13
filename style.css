@@ -79,6 +79,9 @@ button {
 .btn-secondary:hover {
   background-color: var(--secondary-color);
   color: var(--bg-primary);
+  i {
+    color: var(--bg-primary);
+  }
 }
 
 button:hover {
@@ -370,6 +373,8 @@ nav {
   gap: 10px;
   display: flex;
   flex-direction: column;
+  z-index: 10;
+  padding-inline: 1em;
 }
 
 .footer-wrapper h4 {
@@ -483,5 +488,9 @@ i {
 
   .character-text p {
     max-width: 100%;
+  }
+
+  .input-wrapper {
+    flex-direction: column;
   }
 }
