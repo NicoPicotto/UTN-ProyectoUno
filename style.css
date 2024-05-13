@@ -92,11 +92,13 @@ section,
 footer {
   display: flex;
   height: 100%;
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   padding-block: 7em;
   justify-content: center;
   position: relative;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*Header*/
@@ -454,6 +456,7 @@ i {
   .hero-wrapper {
     flex-direction: column;
     padding-inline: 1em;
+    width: auto;
   }
 
   .hero-img img {
@@ -468,14 +471,14 @@ i {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
     padding-inline: 1em;
-    width: 100%;
+    width: auto;
   }
 
   .character-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
     padding-inline: 1em;
-    width: 100%;
+    width: auto;
   }
 
   .character-card {
@@ -488,6 +491,16 @@ i {
 
   .character-text p {
     max-width: 100%;
+  }
+
+  .form-wrapper {
+    width: auto;
+  }
+
+  .footer-wrapper {
+    width: -webkit-fill-available;
+    padding-block: 1em;
+    justify-content: flex-start;
   }
 
   .input-wrapper {
