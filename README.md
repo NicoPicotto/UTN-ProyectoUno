@@ -11,7 +11,8 @@ Es un sitio donde se detallarían los resúmenes de aventuras de un grupo de Dun
 - Fonts de [Google Fonts](https://fonts.google.com/)
 - Paleta generada con [Color Hunt](https://colorhunt.co/)
 - Iconos de la librería [Box Icons](https://boxicons.com/)
-- Imagenes generadas con [DALL·E 3](https://openart.ai/home)
+- Imagenes generadas con 
+- Formulario funcionando con [FormSubmit](https://formsubmit.co/)
 - Separadores generados con [CSS Section Separator Generator](https://wweb.dev/resources/css-separator-generator)
 
 ## Autor
